@@ -1,0 +1,599 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20825</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1523ADDD-CF71-47E9-8327-CAADE9CFA32C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IBuySpy</RootNamespace>
+    <AssemblyName>IBuySpy</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddToCart.aspx" />
+    <Content Include="CheckOut.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Docs\1x1.gif" />
+    <Content Include="Docs\AddToCart.htm" />
+    <Content Include="Docs\AddToCart_aspx.htm" />
+    <Content Include="Docs\AddToCart_aspx_cs.htm" />
+    <Content Include="Docs\alsobought.htm" />
+    <Content Include="Docs\CheckOutPage.htm" />
+    <Content Include="Docs\CheckOut_aspx.htm" />
+    <Content Include="Docs\CheckOut_aspx_cs.htm" />
+    <Content Include="Docs\Components_CustomersDB_cs.htm" />
+    <Content Include="Docs\Components_OrdersDB_cs.htm" />
+    <Content Include="Docs\Components_ProductsDB_cs.htm" />
+    <Content Include="Docs\Components_ReviewsDB_cs.htm" />
+    <Content Include="Docs\Components_ShoppingCartDB_cs.htm" />
+    <Content Include="Docs\CustomerAdd.htm" />
+    <Content Include="Docs\CustomerAlsoBought.htm" />
+    <Content Include="Docs\CustomerDetail.htm" />
+    <Content Include="Docs\CustomerLogin.htm" />
+    <Content Include="Docs\DefaultPage.htm" />
+    <Content Include="Docs\Default_aspx.htm" />
+    <Content Include="Docs\Default_aspx_cs.htm" />
+    <Content Include="Docs\Docs.htm" />
+    <Content Include="Docs\ErrorPage.htm" />
+    <Content Include="Docs\errorpage_aspx.htm" />
+    <Content Include="Docs\ErrorPage_aspx_cs.htm" />
+    <Content Include="Docs\header.htm" />
+    <Content Include="Docs\IBuySpy_css.htm" />
+    <Content Include="Docs\images\1x1.gif" />
+    <Content Include="Docs\images\Categories.GIF" />
+    <Content Include="Docs\images\code-behind.gif" />
+    <Content Include="Docs\images\Customers.GIF" />
+    <Content Include="Docs\images\designerverbs.gif" />
+    <Content Include="Docs\images\ERD-big.GIF" />
+    <Content Include="Docs\images\erd.GIF" />
+    <Content Include="Docs\images\OrderDetails.GIF" />
+    <Content Include="Docs\images\Orders.GIF" />
+    <Content Include="Docs\images\Products.GIF" />
+    <Content Include="Docs\images\Reviews.GIF" />
+    <Content Include="Docs\images\ShoppingCart.GIF" />
+    <Content Include="Docs\images\sitebkgrd.gif" />
+    <Content Include="Docs\InstantOrder.htm" />
+    <Content Include="Docs\instantorder_asmx.htm" />
+    <Content Include="Docs\InstantOrder_asmx_cs.htm" />
+    <Content Include="Docs\LoginPage.htm" />
+    <Content Include="Docs\Login_aspx.htm" />
+    <Content Include="Docs\Login_aspx_cs.htm" />
+    <Content Include="Docs\menu.htm" />
+    <Content Include="Docs\OrderDetailsPage.htm" />
+    <Content Include="Docs\OrderDetails_aspx.htm" />
+    <Content Include="Docs\OrderDetails_aspx_cs.htm" />
+    <Content Include="Docs\OrderListPage.htm" />
+    <Content Include="Docs\OrderList_aspx.htm" />
+    <Content Include="Docs\OrderList_aspx_cs.htm" />
+    <Content Include="Docs\OrdersAdd.htm" />
+    <Content Include="Docs\OrdersDetail.htm" />
+    <Content Include="Docs\OrdersList.htm" />
+    <Content Include="Docs\popularitems.htm" />
+    <Content Include="Docs\ProductCategoryList.htm" />
+    <Content Include="Docs\ProductDetail.htm" />
+    <Content Include="Docs\ProductDetailsPage.htm" />
+    <Content Include="Docs\ProductDetails_aspx.htm" />
+    <Content Include="Docs\ProductDetails_aspx_cs.htm" />
+    <Content Include="Docs\ProductsByCategory.htm" />
+    <Content Include="Docs\ProductSearch.htm" />
+    <Content Include="Docs\ProductsListPage.htm" />
+    <Content Include="Docs\ProductsList_aspx.htm" />
+    <Content Include="Docs\ProductsList_aspx_cs.htm" />
+    <Content Include="Docs\ProductsMostPopular.htm" />
+    <Content Include="Docs\RegisterPage.htm" />
+    <Content Include="Docs\Register_aspx.htm" />
+    <Content Include="Docs\Register_aspx_cs.htm" />
+    <Content Include="Docs\ReviewAddPage.htm" />
+    <Content Include="Docs\ReviewAdd_aspx.htm" />
+    <Content Include="Docs\ReviewAdd_aspx_cs.htm" />
+    <Content Include="Docs\reviewlistpage.htm" />
+    <Content Include="Docs\ReviewsAdd.htm" />
+    <Content Include="Docs\ReviewsList.htm" />
+    <Content Include="Docs\SearchResultsPage.htm" />
+    <Content Include="Docs\SearchResults_aspx.htm" />
+    <Content Include="Docs\SearchResults_aspx_cs.htm" />
+    <Content Include="Docs\ShoppingCartAddItem.htm" />
+    <Content Include="Docs\ShoppingCartEmpty.htm" />
+    <Content Include="Docs\ShoppingCartItemCount.htm" />
+    <Content Include="Docs\ShoppingCartList.htm" />
+    <Content Include="Docs\ShoppingCartMigrate.htm" />
+    <Content Include="Docs\ShoppingCartPage.htm" />
+    <Content Include="Docs\ShoppingCartRemoveAbandoned.htm" />
+    <Content Include="Docs\ShoppingCartRemoveItem.htm" />
+    <Content Include="Docs\ShoppingCartTotal.htm" />
+    <Content Include="Docs\ShoppingCartUpdate.htm" />
+    <Content Include="Docs\ShoppingCart_aspx.htm" />
+    <Content Include="Docs\ShoppingCart_aspx_cs.htm" />
+    <Content Include="Docs\style.css" />
+    <Content Include="Docs\UserControls.htm" />
+    <Content Include="Docs\visualstudio_project_notes.htm" />
+    <Content Include="Docs\Web_Config.htm" />
+    <Content Include="Docs\_alsobought_ascx.htm" />
+    <Content Include="Docs\_AlsoBought_ascx_cs.htm" />
+    <Content Include="Docs\_header_ascx.htm" />
+    <Content Include="Docs\_Header_ascx_cs.htm" />
+    <Content Include="Docs\_Menu_ascx.htm" />
+    <Content Include="Docs\_Menu_ascx_cs.htm" />
+    <Content Include="Docs\_popularitems_ascx.htm" />
+    <Content Include="Docs\_PopularItems_ascx_cs.htm" />
+    <Content Include="Docs\_ReviewList_ascx.htm" />
+    <Content Include="Docs\_ReviewList_ascx_cs.htm" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="IBuySpy.css" />
+    <Content Include="images\1x1.gif" />
+    <Content Include="images\account.gif" />
+    <Content Include="images\add_to_cart.gif" />
+    <Content Include="images\arrowbutton.gif" />
+    <Content Include="images\cart.gif" />
+    <Content Include="images\final_checkout.gif" />
+    <Content Include="images\grid_background.gif" />
+    <Content Include="images\help_bkgrd.gif" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\modernliving.gif" />
+    <Content Include="images\modernliving_bkgrd.gif" />
+    <Content Include="images\most_secretive_place.gif" />
+    <Content Include="images\register.gif" />
+    <Content Include="images\reviewrating1.gif" />
+    <Content Include="images\reviewrating2.gif" />
+    <Content Include="images\reviewrating3.gif" />
+    <Content Include="images\reviewrating4.gif" />
+    <Content Include="images\reviewrating5.gif" />
+    <Content Include="images\review_this_product.gif" />
+    <Content Include="images\search.gif" />
+    <Content Include="images\services.gif" />
+    <Content Include="images\sign_in.gif" />
+    <Content Include="images\sign_in_now.gif" />
+    <Content Include="images\sitebkgrd.gif" />
+    <Content Include="images\sitebkgrdnogray.GIF" />
+    <Content Include="images\submit.gif" />
+    <Content Include="images\target.gif" />
+    <Content Include="images\update_cart.gif" />
+    <Content Include="InstantOrder.asmx" />
+    <Content Include="Login.aspx" />
+    <Content Include="OrderDetails.aspx" />
+    <Content Include="OrderList.aspx" />
+    <Content Include="ProductDetails.aspx" />
+    <Content Include="ProductImages\1MOR4ME.gif" />
+    <Content Include="ProductImages\BHONST93.gif" />
+    <Content Include="ProductImages\BME007.gif" />
+    <Content Include="ProductImages\BPRECISE00.gif" />
+    <Content Include="ProductImages\BRTLGT1.gif" />
+    <Content Include="ProductImages\BSUR2DUC.gif" />
+    <Content Include="ProductImages\C00LCMB1.gif" />
+    <Content Include="ProductImages\CHEW99.gif" />
+    <Content Include="ProductImages\CITSME9.gif" />
+    <Content Include="ProductImages\DNTGCGHT.gif" />
+    <Content Include="ProductImages\DNTRPR.gif" />
+    <Content Include="ProductImages\FF007.gif" />
+    <Content Include="ProductImages\GRTWTCH9.gif" />
+    <Content Include="ProductImages\ICNCU.gif" />
+    <Content Include="ProductImages\ICUCLRLY00.gif" />
+    <Content Include="ProductImages\image.gif" />
+    <Content Include="ProductImages\INCPPRCLP.gif" />
+    <Content Include="ProductImages\JWLTRANS6.gif" />
+    <Content Include="ProductImages\LK4TLNT.gif" />
+    <Content Include="ProductImages\LKARCKT.gif" />
+    <Content Include="ProductImages\LNGWADN.gif" />
+    <Content Include="ProductImages\LSRPTR1.gif" />
+    <Content Include="ProductImages\NE1RPR.gif" />
+    <Content Include="ProductImages\NOBOOBOO4U.gif" />
+    <Content Include="ProductImages\NOZ119.gif" />
+    <Content Include="ProductImages\NTMBS1.gif" />
+    <Content Include="ProductImages\OPNURMIND.gif" />
+    <Content Include="ProductImages\P38.gif" />
+    <Content Include="ProductImages\PT109.gif" />
+    <Content Include="ProductImages\QLT2112.gif" />
+    <Content Include="ProductImages\RED1.gif" />
+    <Content Include="ProductImages\RU007.gif" />
+    <Content Include="ProductImages\SHADE01.gif" />
+    <Content Include="ProductImages\SQUKY1.gif" />
+    <Content Include="ProductImages\STKY1.gif" />
+    <Content Include="ProductImages\TCKLR1.gif" />
+    <Content Include="ProductImages\TGFDA.gif" />
+    <Content Include="ProductImages\THNKDKE1.gif" />
+    <Content Include="ProductImages\thumbs\1MOR4ME.gif" />
+    <Content Include="ProductImages\thumbs\BHONST93.gif" />
+    <Content Include="ProductImages\thumbs\BME007.gif" />
+    <Content Include="ProductImages\thumbs\BPRECISE00.gif" />
+    <Content Include="ProductImages\thumbs\BRTLGT1.gif" />
+    <Content Include="ProductImages\thumbs\BSUR2DUC.gif" />
+    <Content Include="ProductImages\thumbs\C00LCMB1.gif" />
+    <Content Include="ProductImages\thumbs\CHEW99.gif" />
+    <Content Include="ProductImages\thumbs\CITSME9.gif" />
+    <Content Include="ProductImages\thumbs\DNTGCGHT.gif" />
+    <Content Include="ProductImages\thumbs\DNTRPR.gif" />
+    <Content Include="ProductImages\thumbs\FF007.gif" />
+    <Content Include="ProductImages\thumbs\GRTWTCH9.gif" />
+    <Content Include="ProductImages\thumbs\ICNCU.gif" />
+    <Content Include="ProductImages\thumbs\ICUCLRLY00.gif" />
+    <Content Include="ProductImages\thumbs\image.gif" />
+    <Content Include="ProductImages\thumbs\INCPPRCLP.gif" />
+    <Content Include="ProductImages\thumbs\JWLTRANS6.gif" />
+    <Content Include="ProductImages\thumbs\LK4TLNT.gif" />
+    <Content Include="ProductImages\thumbs\LKARCKT.gif" />
+    <Content Include="ProductImages\thumbs\LNGWADN.gif" />
+    <Content Include="ProductImages\thumbs\LSRPTR1.gif" />
+    <Content Include="ProductImages\thumbs\NE1RPR.gif" />
+    <Content Include="ProductImages\thumbs\NOBOOBOO4U.gif" />
+    <Content Include="ProductImages\thumbs\NOZ119.gif" />
+    <Content Include="ProductImages\thumbs\NTMBS1.gif" />
+    <Content Include="ProductImages\thumbs\OPNURMIND.gif" />
+    <Content Include="ProductImages\thumbs\P38.gif" />
+    <Content Include="ProductImages\thumbs\PT109.gif" />
+    <Content Include="ProductImages\thumbs\QLT2112.gif" />
+    <Content Include="ProductImages\thumbs\RED1.gif" />
+    <Content Include="ProductImages\thumbs\RU007.gif" />
+    <Content Include="ProductImages\thumbs\SHADE01.gif" />
+    <Content Include="ProductImages\thumbs\SQRTME1.gif" />
+    <Content Include="ProductImages\thumbs\SQUKY1.gif" />
+    <Content Include="ProductImages\thumbs\STKY1.gif" />
+    <Content Include="ProductImages\thumbs\TCKLR1.gif" />
+    <Content Include="ProductImages\thumbs\TGFDA.gif" />
+    <Content Include="ProductImages\thumbs\THNKDKE1.gif" />
+    <Content Include="ProductImages\thumbs\ULOST007.gif" />
+    <Content Include="ProductImages\thumbs\WOWPEN.gif" />
+    <Content Include="ProductImages\thumbs\WRLD00.gif" />
+    <Content Include="ProductImages\ULOST007.gif" />
+    <Content Include="ProductImages\untitled.bmp" />
+    <Content Include="ProductImages\WOWPEN.gif" />
+    <Content Include="ProductImages\WRLD00.gif" />
+    <Content Include="ProductImages\xxximage.gif" />
+    <Content Include="ProductsList.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="ReviewAdd.aspx" />
+    <Content Include="scripts\ReplaceText.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SearchResults.aspx" />
+    <Content Include="ShoppingCart.aspx" />
+    <Content Include="SourceViewer\1x1.gif" />
+    <Content Include="SourceViewer\grid_background.gif" />
+    <Content Include="SourceViewer\srcview.aspx" />
+    <Content Include="SourceViewer\style.css" />
+    <Content Include="SourceViewer\tabview.aspx" />
+    <Content Include="static\1x1.gif" />
+    <Content Include="static\1x1[1].gif" />
+    <Content Include="static\account.gif" />
+    <Content Include="static\AddToCart1.htm" />
+    <Content Include="static\AddToCart2.htm" />
+    <Content Include="static\AddToCart3.htm" />
+    <Content Include="static\add_to_cart.gif" />
+    <Content Include="static\arrowbutton.gif" />
+    <Content Include="static\cart.gif" />
+    <Content Include="static\default.htm" />
+    <Content Include="static\DNTRPR.gif" />
+    <Content Include="static\final_checkout.gif" />
+    <Content Include="static\grid_background.gif" />
+    <Content Include="static\IBuySpy.css" />
+    <Content Include="static\JWLTRANS6.gif" />
+    <Content Include="static\LK4TLNT.gif" />
+    <Content Include="static\LKARCKT.gif" />
+    <Content Include="static\LNGWADN.gif" />
+    <Content Include="static\logo.gif" />
+    <Content Include="static\LSRPTR1.gif" />
+    <Content Include="static\modernliving.gif" />
+    <Content Include="static\modernliving_bkgrd.gif" />
+    <Content Include="static\most_secretive_place.gif" />
+    <Content Include="static\NOBOOBOO4U.gif" />
+    <Content Include="static\P38.gif" />
+    <Content Include="static\ProductDetails1.htm" />
+    <Content Include="static\ProductDetails2.htm" />
+    <Content Include="static\ProductDetails3.htm" />
+    <Content Include="static\ProductDetails4.htm" />
+    <Content Include="static\ProductDetails5.htm" />
+    <Content Include="static\productslist1.htm" />
+    <Content Include="static\productslist2.htm" />
+    <Content Include="static\productslist3.htm" />
+    <Content Include="static\PT109.gif" />
+    <Content Include="static\RED1.gif" />
+    <Content Include="static\ReviewRating3.gif" />
+    <Content Include="static\review_this_product.gif" />
+    <Content Include="static\RU007.gif" />
+    <Content Include="static\search.gif" />
+    <Content Include="static\SearchResults1.htm" />
+    <Content Include="static\SearchResults2.htm" />
+    <Content Include="static\services.gif" />
+    <Content Include="static\ShoppingCart1.htm" />
+    <Content Include="static\ShoppingCart2.htm" />
+    <Content Include="static\ShoppingCart3.htm" />
+    <Content Include="static\sign_in.gif" />
+    <Content Include="static\sitebkgrd.gif" />
+    <Content Include="static\sitebkgrdnogray.gif" />
+    <Content Include="static\SQUKY1.gif" />
+    <Content Include="static\TCKLR1.gif" />
+    <Content Include="static\THNKDKE1.gif" />
+    <Content Include="static\update_cart.gif" />
+    <Content Include="static\WOWPEN.gif" />
+    <Content Include="static\WRLD00.gif" />
+    <Content Include="StoreCSVSStatic\1x1.gif" />
+    <Content Include="StoreCSVSStatic\1x1[1].gif" />
+    <Content Include="StoreCSVSStatic\account.gif" />
+    <Content Include="StoreCSVSStatic\AddToCart.htm" />
+    <Content Include="StoreCSVSStatic\add_to_cart.gif" />
+    <Content Include="StoreCSVSStatic\arrowbutton.gif" />
+    <Content Include="StoreCSVSStatic\cart.gif" />
+    <Content Include="StoreCSVSStatic\Checkout1.htm" />
+    <Content Include="StoreCSVSStatic\Checkout2.htm" />
+    <Content Include="StoreCSVSStatic\Checkout3.htm" />
+    <Content Include="StoreCSVSStatic\default.htm" />
+    <Content Include="StoreCSVSStatic\final_checkout.gif" />
+    <Content Include="StoreCSVSStatic\grid_background.gif" />
+    <Content Include="StoreCSVSStatic\IBuySpy.css.txt" />
+    <Content Include="StoreCSVSStatic\image.gif" />
+    <Content Include="StoreCSVSStatic\Login1.htm" />
+    <Content Include="StoreCSVSStatic\Login2.htm" />
+    <Content Include="StoreCSVSStatic\logo.gif" />
+    <Content Include="StoreCSVSStatic\modernliving.gif" />
+    <Content Include="StoreCSVSStatic\modernliving_bkgrd.gif" />
+    <Content Include="StoreCSVSStatic\most_secretive_place.gif" />
+    <Content Include="StoreCSVSStatic\ProductDetails1.htm" />
+    <Content Include="StoreCSVSStatic\ProductDetails2.htm" />
+    <Content Include="StoreCSVSStatic\ProductDetails3.htm" />
+    <Content Include="StoreCSVSStatic\ProductDetails4.htm" />
+    <Content Include="StoreCSVSStatic\ProductDetails5.htm" />
+    <Content Include="StoreCSVSStatic\ProductDetails6.htm" />
+    <Content Include="StoreCSVSStatic\ProductDetails7.htm" />
+    <Content Include="StoreCSVSStatic\ProductDetails8.htm" />
+    <Content Include="StoreCSVSStatic\productslist1.htm" />
+    <Content Include="StoreCSVSStatic\productslist2.htm" />
+    <Content Include="StoreCSVSStatic\productslist3.htm" />
+    <Content Include="StoreCSVSStatic\productslist4.htm" />
+    <Content Include="StoreCSVSStatic\productslist5.htm" />
+    <Content Include="StoreCSVSStatic\register.gif" />
+    <Content Include="StoreCSVSStatic\ReviewAdd1.htm" />
+    <Content Include="StoreCSVSStatic\ReviewAdd2.htm" />
+    <Content Include="StoreCSVSStatic\reviewrating1.gif" />
+    <Content Include="StoreCSVSStatic\reviewrating2.gif" />
+    <Content Include="StoreCSVSStatic\ReviewRating3.gif" />
+    <Content Include="StoreCSVSStatic\ReviewRating4.gif" />
+    <Content Include="StoreCSVSStatic\reviewrating5.gif" />
+    <Content Include="StoreCSVSStatic\review_this_product.gif" />
+    <Content Include="StoreCSVSStatic\search.gif" />
+    <Content Include="StoreCSVSStatic\SearchResults1.htm" />
+    <Content Include="StoreCSVSStatic\SearchResults2.htm" />
+    <Content Include="StoreCSVSStatic\services.gif" />
+    <Content Include="StoreCSVSStatic\ShoppingCart1.htm" />
+    <Content Include="StoreCSVSStatic\ShoppingCart2.htm" />
+    <Content Include="StoreCSVSStatic\ShoppingCart3.htm" />
+    <Content Include="StoreCSVSStatic\ShoppingCart4.htm" />
+    <Content Include="StoreCSVSStatic\ShoppingCart5.htm" />
+    <Content Include="StoreCSVSStatic\ShoppingCart6.htm" />
+    <Content Include="StoreCSVSStatic\ShoppingCart7.htm" />
+    <Content Include="StoreCSVSStatic\ShoppingCart8.htm" />
+    <Content Include="StoreCSVSStatic\sign_in.gif" />
+    <Content Include="StoreCSVSStatic\sign_in_now.gif" />
+    <Content Include="StoreCSVSStatic\sitebkgrd.gif" />
+    <Content Include="StoreCSVSStatic\sitebkgrdnogray.gif" />
+    <Content Include="StoreCSVSStatic\submit.gif" />
+    <Content Include="StoreCSVSStatic\update_cart.gif" />
+    <Content Include="StoreCSVSStatic\WebUIValidation.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="_AlsoBought - Copy.ascx" />
+    <Content Include="_AlsoBought.ascx" />
+    <Content Include="_Header.ascx" />
+    <Content Include="_Menu.ascx" />
+    <Content Include="_PopularItems.ascx" />
+    <Content Include="_ReviewList.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddToCart.aspx.cs">
+      <DependentUpon>AddToCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckOut.aspx.cs">
+      <DependentUpon>CheckOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Components\CustomersDB.cs" />
+    <Compile Include="Components\OrdersDB.cs" />
+    <Compile Include="Components\ProductsDB.cs" />
+    <Compile Include="Components\ReviewsDB.cs" />
+    <Compile Include="Components\ShoppingCartDb.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InstantOrder.asmx.cs">
+      <DependentUpon>InstantOrder.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderDetails.aspx.cs">
+      <DependentUpon>OrderDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductDetails.aspx.cs">
+      <DependentUpon>ProductDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductsList.aspx.cs">
+      <DependentUpon>ProductsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReviewAdd.aspx.cs">
+      <DependentUpon>ReviewAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SearchResults.aspx.cs">
+      <DependentUpon>SearchResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShoppingCart.aspx.cs">
+      <DependentUpon>ShoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_AlsoBought.ascx.cs">
+      <DependentUpon>_AlsoBought.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Header.ascx.cs">
+      <DependentUpon>_Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Menu.ascx.cs">
+      <DependentUpon>_Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_PopularItems.ascx.cs">
+      <DependentUpon>_PopularItems.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_ReviewList.ascx.cs">
+      <DependentUpon>_ReviewList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IBuySpyStore.vsdisco" />
+    <None Include="ProductImages\thumbs\Thumbs.db" />
+    <None Include="scripts\CopyScripts.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\setupbe.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\setupbe.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\setupfe.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\storedb.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="scripts\storedb2.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="SourceViewer\AddToCart.src" />
+    <None Include="SourceViewer\alsobought.src" />
+    <None Include="SourceViewer\CheckOut.src" />
+    <None Include="SourceViewer\Default.src" />
+    <None Include="SourceViewer\empty.src" />
+    <None Include="SourceViewer\ErrorPage.src" />
+    <None Include="SourceViewer\header.src" />
+    <None Include="SourceViewer\instantorder.src" />
+    <None Include="SourceViewer\Login.src" />
+    <None Include="SourceViewer\menu.src" />
+    <None Include="SourceViewer\OrderDetails.src" />
+    <None Include="SourceViewer\OrderList.src" />
+    <None Include="SourceViewer\popularitems.src" />
+    <None Include="SourceViewer\ProductDetails.src" />
+    <None Include="SourceViewer\ProductsList.src" />
+    <None Include="SourceViewer\Register.src" />
+    <None Include="SourceViewer\ReviewAdd.src" />
+    <None Include="SourceViewer\reviewlist.src" />
+    <None Include="SourceViewer\SearchResults.src" />
+    <None Include="SourceViewer\ShoppingCart.src" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="licenses.licx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>6294</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

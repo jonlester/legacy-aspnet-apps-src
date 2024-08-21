@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2b8f48c5-43a2-496a-b79a-6693b31b1b0d" name="mathewan@MATHEWAN-VS 2009-09-05 09:28:02" runUser="FAREAST\mathewan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a4735104-418c-49e6-a4e0-94bc1309b911">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="mathewan_MATHEWAN-VS 2009-09-05 09_28_02" />
+  </TestSettings>
+  <Times creation="2009-09-05T09:28:02.3655622+05:30" queuing="2009-09-05T09:28:05.5226155+05:30" start="2009-09-05T09:28:05.7926074+05:30" finish="2009-09-05T09:28:19.8245672+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\temp\ibuyspy\ibuyspy\testproject1\bin\debug\testproject1.dll" id="c724dcba-737e-59be-d4b3-3aa12e47e71d">
+      <Execution id="45df28d0-c7ed-4862-8d45-78b1fd903536" />
+      <TestMethod codeBase="C:/TEMP/IbuySpy/IbuySpy/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CodedUITest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" executionId="45df28d0-c7ed-4862-8d45-78b1fd903536" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="45df28d0-c7ed-4862-8d45-78b1fd903536" testId="c724dcba-737e-59be-d4b3-3aa12e47e71d" testName="CodedUITestMethod1" computerName="MATHEWAN-VS" duration="00:00:12.6597377" startTime="2009-09-05T09:28:05.8969003+05:30" endTime="2009-09-05T09:28:19.1793820+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45df28d0-c7ed-4862-8d45-78b1fd903536">
+      <Output>
+        <DebugTrace>W, 5824, 13, 2009/09/05, 09:28:07.302, 627900942539, QTAgent32.exe, Value in en-US resource 'Maximize' does not match the defaultvalue 'Maximize
+W, 5824, 13, 2009/09/05, 09:28:07.304, 627900947616, QTAgent32.exe, Value in en-US resource 'Restore' does not match the defaultvalue 'Restore
+W, 5824, 13, 2009/09/05, 09:28:07.310, 627900971074, QTAgent32.exe, Value in en-US resource 'Back' does not match the defaultvalue 'Back
+W, 5824, 13, 2009/09/05, 09:28:07.311, 627900972462, QTAgent32.exe, Value in en-US resource 'Forward' does not match the defaultvalue 'Forward
+W, 5824, 13, 2009/09/05, 09:28:07.311, 627900974186, QTAgent32.exe, Value in en-US resource 'Refresh (F5)' does not match the defaultvalue 'Refresh (F5)
+W, 5824, 13, 2009/09/05, 09:28:07.311, 627900975507, QTAgent32.exe, Value in en-US resource 'Stop (Esc)' does not match the defaultvalue 'Stop (Esc)
+W, 5824, 13, 2009/09/05, 09:28:07.312, 627900976894, QTAgent32.exe, Value in en-US resource 'Address' does not match the defaultvalue 'Address
+W, 5824, 13, 2009/09/05, 09:28:07.312, 627900978205, QTAgent32.exe, Value in en-US resource 'Show Address Bar Autocomplete' does not match the defaultvalue 'Show Address Bar Autocomplete
+W, 5824, 13, 2009/09/05, 09:28:07.318, 627901003268, QTAgent32.exe, Value in en-US resource 'AutoComplete' does not match the defaultvalue 'AutoComplete
+W, 5824, 13, 2009/09/05, 09:28:07.319, 627901004534, QTAgent32.exe, Value in en-US resource 'AutoComplete Passwords' does not match the defaultvalue 'AutoComplete Passwords
+E, 5824, 13, 2009/09/05, 09:28:07.319, 627901006705, QTAgent32.exe, LoadLibrary() : Unable to find the resource 37382 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+W, 5824, 13, 2009/09/05, 09:28:07.320, 627901007989, QTAgent32.exe, Value in en-US resource 'Internet Explorer' does not match the defaultvalue 'Internet Explorer
+W, 5824, 13, 2009/09/05, 09:28:07.320, 627901009416, QTAgent32.exe, Value in en-US resource 'Message from webpage' does not match the defaultvalue 'Message from webpage
+E, 5824, 13, 2009/09/05, 09:28:07.321, 627901010543, QTAgent32.exe, LoadLibrary() : Unable to find the resource 41728 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+W, 5824, 13, 2009/09/05, 09:28:07.321, 627901011767, QTAgent32.exe, Value in en-US resource 'Explorer User Prompt' does not match the defaultvalue 'Explorer User Prompt
+W, 5824, 13, 2009/09/05, 09:28:07.321, 627901013053, QTAgent32.exe, Value in en-US resource 'Cancel' does not match the defaultvalue 'Cancel
+W, 5824, 13, 2009/09/05, 09:28:07.322, 627901014391, QTAgent32.exe, Value in en-US resource 'Close' does not match the defaultvalue 'Close
+W, 5824, 13, 2009/09/05, 09:28:07.322, 627901015477, QTAgent32.exe, Value in en-US resource 'OK' does not match the defaultvalue 'OK
+E, 5824, 13, 2009/09/05, 09:28:07.322, 627901016934, QTAgent32.exe, LoadLibrary() : Unable to find the resource 803 from assembly C:\Windows\system32\en-US\user32.dll.mui: Error1814
+W, 5824, 13, 2009/09/05, 09:28:07.325, 627901027078, QTAgent32.exe, Value in en-US resource 'Windows Security' does not match the defaultvalue 'Windows Security
+E, 5824, 13, 2009/09/05, 09:28:07.407, 627901321357, QTAgent32.exe, IEDOM : Could not get valid window handle of Internet Explorer_server
+W, 5824, 13, 2009/09/05, 09:28:10.747, 627913298554, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] MouseButtonClick - "[Web]ControlType='Image' &amp;&amp; TagName='IMG' &amp;&amp; Id='' &amp;&amp; Name='' &amp;&amp; Alt='' &amp;&amp; FilterCondition(AbsolutePath='/storecsvs/images/sign_in.gif', Src='http://mathewan-web5/storecsvs/images/sign_in.gif', LinkAbsolutePath='/storecsvs/Login.aspx', Href='http://mathewan-web5/storecsvs/Login.aspx', Class='', ControlDefinition='border=0 src="images/sign_in.gif"', TagInstance='2')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:11.769, 627916960489, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] SetValueAsEditBox "jb@ibuyspy.com" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='email' &amp;&amp; Name='email' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='id=email size=25 name=email', TagInstance='7')"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:12.032, 627917906790, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.035, 627917917013, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.038, 627917928689, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.042, 627917939807, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.045, 627917952803, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.049, 627917964679, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.052, 627917975411, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.056, 627917988986, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.058, 627917999066, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.060, 627918007404, QTAgent32.exe, Playback -    &lt; [WARNING] Internal warning:  Can not compare UI elements if one of them is not MSAA element &gt;
+\0
+W, 5824, 13, 2009/09/05, 09:28:12.064, 627918020391, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] SendKeys "{Tab}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='email' &amp;&amp; Name='email' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='id=email size=25 name=email', TagInstance='7')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:12.298, 627918857867, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] SendKeys "^{HOME}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='password' &amp;&amp; Name='password' &amp;&amp; FilterCondition(LabeledBy='', Type='PASSWORD', Title='', Class='', ControlDefinition='id=password value="" size=25 type=passwo', TagInstance='8')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:12.438, 627919359994, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] SendKeys "^+{END}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='password' &amp;&amp; Name='password' &amp;&amp; FilterCondition(LabeledBy='', Type='PASSWORD', Title='', Class='', ControlDefinition='id=password value="" size=25 type=passwo', TagInstance='8')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:12.482, 627919519145, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] SendKeys "{DELETE}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='password' &amp;&amp; Name='password' &amp;&amp; FilterCondition(LabeledBy='', Type='PASSWORD', Title='', Class='', ControlDefinition='id=password value="" size=25 type=passwo', TagInstance='8')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:12.705, 627920317277, QTAgent32.exe, &lt;a class=success&gt;Playback - {7} [SUCCESS] SetValueAsEditBox "[*]" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='password' &amp;&amp; Name='password' &amp;&amp; FilterCondition(LabeledBy='', Type='PASSWORD', Title='', Class='', ControlDefinition='id=password value="" size=25 type=passwo', TagInstance='8')"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:13.016, 627921436770, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] MouseButtonClick - "[Web]ControlType='Button' &amp;&amp; TagName='INPUT' &amp;&amp; Id='LoginBtn' &amp;&amp; Name='LoginBtn' &amp;&amp; FilterCondition(DisplayText='', Type='image', Src='http://mathewan-web5/storecsvs/images/sign_in_now.gif', Title='', Class='', ControlDefinition='id=LoginBtn language=javascript onclick=', TagInstance='10')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:13.975, 627924875246, QTAgent32.exe, &lt;a class=success&gt;Playback - {9} [SUCCESS] MouseButtonClick - "[Web]ControlType='Hyperlink' &amp;&amp; TagName='A' &amp;&amp; Id='Menu1_MyList__ctl0_HyperLink1' &amp;&amp; Name='' &amp;&amp; Target='' &amp;&amp; InnerText='Communications' &amp;&amp; FilterCondition(AbsolutePath='/StoreCSVS/productslist.aspx', Title='', Href='http://mathewan-web5/StoreCSVS/productslist.aspx?CategoryID=14&amp;selection=0', Class='MenuUnselected', ControlDefinition='id=Menu1_MyList__ctl0_HyperLink1 class=M', TagInstance='6')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:14.946, 627928357053, QTAgent32.exe, &lt;a class=success&gt;Playback - {10} [SUCCESS] MouseButtonClick - "[Web]ControlType='Hyperlink' &amp;&amp; TagName='A' &amp;&amp; Id='' &amp;&amp; Name='' &amp;&amp; Target='' &amp;&amp; InnerText='Add To Cart ' &amp;&amp; FilterCondition(AbsolutePath='/StoreCSVS/AddToCart.aspx', Title='', Href='http://mathewan-web5/StoreCSVS/AddToCart.aspx?productID=360', Class='', ControlDefinition='href="AddToCart.aspx?productID=360"', TagInstance='3')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:15.504, 627930357269, QTAgent32.exe, &lt;a class=success&gt;Playback - {11} [SUCCESS] SendKeys "^{HOME}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='MyList__ctl2_Quantity' &amp;&amp; Name='MyList:_ctl2:Quantity' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='style="WIDTH: 40px" id=MyList__ctl2_Quan', TagInstance='5')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:15.615, 627930753273, QTAgent32.exe, &lt;a class=success&gt;Playback - {12} [SUCCESS] SendKeys "^+{END}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='MyList__ctl2_Quantity' &amp;&amp; Name='MyList:_ctl2:Quantity' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='style="WIDTH: 40px" id=MyList__ctl2_Quan', TagInstance='5')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:15.656, 627930903979, QTAgent32.exe, &lt;a class=success&gt;Playback - {13} [SUCCESS] SendKeys "{DELETE}" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='MyList__ctl2_Quantity' &amp;&amp; Name='MyList:_ctl2:Quantity' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='style="WIDTH: 40px" id=MyList__ctl2_Quan', TagInstance='5')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:15.801, 627931422940, QTAgent32.exe, &lt;a class=success&gt;Playback - {14} [SUCCESS] SetValueAsEditBox "10" - "[Web]ControlType='Edit' &amp;&amp; TagName='INPUT' &amp;&amp; Id='MyList__ctl2_Quantity' &amp;&amp; Name='MyList:_ctl2:Quantity' &amp;&amp; FilterCondition(LabeledBy='', Type='SINGLELINE', Title='', Class='', ControlDefinition='style="WIDTH: 40px" id=MyList__ctl2_Quan', TagInstance='5')"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:16.132, 627932609210, QTAgent32.exe, &lt;a class=success&gt;Playback - {15} [SUCCESS] MouseButtonClick - "[Web]ControlType='Button' &amp;&amp; TagName='INPUT' &amp;&amp; Id='UpdateBtn' &amp;&amp; Name='UpdateBtn' &amp;&amp; FilterCondition(DisplayText='', Type='image', Src='http://mathewan-web5/StoreCSVS/images/update_cart.gif', Title='', Class='', ControlDefinition='id=UpdateBtn src="images/update_cart.gif', TagInstance='7')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:17.288, 627936757482, QTAgent32.exe, &lt;a class=success&gt;Playback - {16} [SUCCESS] MouseButtonClick - "[Web]ControlType='Button' &amp;&amp; TagName='INPUT' &amp;&amp; Id='CheckoutBtn' &amp;&amp; Name='CheckoutBtn' &amp;&amp; FilterCondition(DisplayText='', Type='image', Src='http://mathewan-web5/StoreCSVS/images/final_checkout.gif', Title='', Class='', ControlDefinition='id=CheckoutBtn src="images/final_checkou', TagInstance='8')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:17.796, 627938577029, QTAgent32.exe, &lt;a class=success&gt;Playback - {17} [SUCCESS] MouseButtonClick - "[Web]ControlType='Button' &amp;&amp; TagName='INPUT' &amp;&amp; Id='SubmitBtn' &amp;&amp; Name='SubmitBtn' &amp;&amp; FilterCondition(DisplayText='', Type='image', Src='http://mathewan-web5/StoreCSVS/images/submit.gif', Title='', Class='', ControlDefinition='id=SubmitBtn src="images/submit.gif" typ', TagInstance='5')"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:18.059, 627939521013, QTAgent32.exe, &lt;a class=success&gt;Playback - {18} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='Close'"
+\0&lt;/a&gt;
+W, 5824, 13, 2009/09/05, 09:28:19.151, 627943435445, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 5824, 13, 2009/09/05, 09:28:19.151, 627943435814, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

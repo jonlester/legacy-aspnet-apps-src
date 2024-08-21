@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="20dd40c3-fa6b-4c9a-903d-1ade508255a0" name="mathewan@MATHEWAN-VS 2009-09-05 09:36:14" runUser="FAREAST\mathewan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a4735104-418c-49e6-a4e0-94bc1309b911">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="mathewan_MATHEWAN-VS 2009-09-05 09_36_14">
+      <DeploymentItem filename="C:\TEMP\IbuySpy\IbuySpy\bin\IBuySpy.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2009-09-05T09:36:14.7522689+05:30" queuing="2009-09-05T09:36:15.2344979+05:30" start="2009-09-05T09:36:15.4127765+05:30" finish="2009-09-05T09:36:16.1989559+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\temp\ibuyspy\ibuyspy\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="4b5269bf-93c6-4730-b04b-9bf624386cd5" />
+      <TestMethod codeBase="C:/TEMP/IbuySpy/IbuySpy/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="4b5269bf-93c6-4730-b04b-9bf624386cd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4b5269bf-93c6-4730-b04b-9bf624386cd5" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="MATHEWAN-VS" duration="00:00:00.0973735" startTime="2009-09-05T09:36:15.4731769+05:30" endTime="2009-09-05T09:36:16.0499033+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b5269bf-93c6-4730-b04b-9bf624386cd5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at TestProject1.UnitTest1.TestMethod1() in C:\TEMP\IbuySpy\IbuySpy\TestProject1\UnitTest1.cs:line 19
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
